@@ -1,0 +1,161 @@
+.languageBar {
+  margin: 30px;
+  font-size: 24px;
+}
+
+.language {
+  margin-right: 25px;
+  color: white;
+  /* margin-left: 25px; */
+}
+
+.right {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-content: right;
+}
+
+a:hover {
+  background-color: blue;
+}
+
+a {
+  color: white;
+}
+
+body {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  /* background-color: blue; */
+  background-color: #766153;
+  /* background-color: #445A18; */
+  /* background-color: #71200E; */
+  /* background-color: darkred; */
+  /* background-color: #fe4f1f; */
+    /* Red Color my favorite so far */
+    /* background-color: rgb(226,64,20, 0.6); */
+     /* background-color: #e24014;    */
+   /* background-color: #ee3a2f;  */
+  /* Bright orange */
+/* background-color: #ed5930; */
+  /* other selections..
+   background-color: #EA8069; 
+   background-color: #f8b2ae; 
+   background-color: #ee3a2f;  */
+   background-color: #6D0000;
+}
+
+.submiting {
+  margin-left: 100px;
+  /* color: red; */
+}
+
+input[type=submit] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  float: right;
+  margin-right: 32px;
+}
+
+input[type=submit]:hover {
+  background: darkgrey;
+  color: #fff;
+  border: 4px solid #eee;
+  border-radius: 30px;
+  box-shadow: 8px 8px 8px #eee;
+  text-shadow:none;
+  }
+
+#main {
+  margin-top: 50px;
+  margin-left: 30px;
+  border: 2px solid black;
+  padding:20px;
+  width: 450px;
+  background-color:beige;
+  padding-bottom:30px;
+}
+
+footer {
+  /* background-color: blue; */
+  position: relative;
+  float: right;
+  height: 35px;
+  /* margin: 0px 0px 0px 0px; */
+  /* background: #9FF; */
+  color: white;
+  text-align: right;
+  font-size: large;
+ /* padding: 10px 30px;  */
+}
+
+h1 {
+  color: red;
+  text-align: center;
+  /* align-self: left; */
+}
+
+h2 {
+  text-align: center;
+}
+
+img {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+}
+
+main {
+  margin: 20px;
+}
+
+@media only screen and (max-width: 500px) {
+#main {
+  width: 400px;
+}
+table {
+  width: 400px;
+}
+
+}
+
+p {
+  font-size: 30px;
+}
+
+@media only screen and (max-width: 500px) {
+  #main {
+    width: 400px;
+  }
+  table {
+    width: 400px;
+  }
+  
+  }
+
+section {
+    padding-top:10px;
+    /* background-color: pink; */
+  }
+
+.ios img {
+  display: inline-block;
+  float: left;
+
+  }
+
+.row {
+    display: flex;
+    justify-content: center;
+    background-color: yellow;
+  }
+  
+.column {
+    flex: 40%;
+    padding: 5px;
+  }

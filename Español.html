@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Digital Red</title>
+  <meta name="description" content="DigitalRed">
+  <meta name="keywords" content="DigitalRed">
+
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-H2C2T7DKTH"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() { dataLayer.push(arguments); }
+    gtag('js', new Date());
+
+    gtag('config', 'G-H2C2T7DKTH');
+  </script>
+</head>
+
+<body>
+  <div class="left">
+    <nav class="languageBar">
+      <a class="language" href="index.html"> English </a>
+      <a class="language" href="Français.html"> Français </a>
+      <a class="language" href="Español.html">Español</a>
+    </nav>
+    <div id="main">
+      <img src="RED512.png" alt="Red logo" height="200" width="200">
+      <h1>Bienvenida a DigitalRed</h1>
+      <h2>No dude en contactarnos sobre las próximas necesidades comerciales</h2>
+      <form name="contactform" method="post" action="send_form_email.php">
+        <table width="450px">
+          <tr>
+            <td valign="top">
+              <label for="first_name">primer nombre *</label>
+            </td>
+            <td valign="top">
+              <input type="text" name="first_name" maxlength="50" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="last_name">apellido *</label>
+            </td>
+            <td valign="top">
+              <input type="text" name="last_name" maxlength="50" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="email">correo electrónico *</label>
+            </td>
+            <td valign="top">
+              <input type="text" name="email" maxlength="80" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="telephone">número de teléfono</label>
+            </td>
+            <td valign="top">
+              <input type="text" name="telephone" maxlength="30" size="30">
+            </td>
+          </tr>
+          <tr>
+            <td valign="top">
+              <label for="comments">comentarios adicionales *</label>
+            </td>
+            <td valign="top">
+              <textarea name="comments" maxlength="1000" cols="28" rows="6"></textarea>
+            </td>
+          </tr>
+          <!-- <tr>
+             <td> -->
+          <!-- <td valign="top"> -->
+          <!-- <td colspan="2" style="text-align:center"> -->
+          <!-- <input type="submit" value="Submit" class="submiting">
+            </td>
+          </tr> -->
+        </table>
+        <input type="submit" value="soumettre" class="submiting">
+      </form>
+      <!-- form data from: https://www.freecontactform.com/email_form.php -->
+    </div>
+  </div>
+  <div class="right">
+    <main>
+      <p>
+        ¿Está buscando una solución para monitorear la sequía en tiempo real? Necesita información sobre el índice de
+        sequía en tiempo real? ¡No busque más! ¡Somos su solución integral!</p>
+      <section>
+        <h3>AVAILABLE SOON ON ANDROID & IOS:</h3>
+        <img src="AndroidIOS2.jpg" alt="apple" style="width:30%;float:left" id="ios">
+      </section>
+    </main>
+    <footer>Copyright 2021</footer>
+  </div>
+  <a href="bcweathercams.ca"></a>
+</body>
+
+</html>
